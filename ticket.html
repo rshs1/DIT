@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <header>
+        <div id="ticketpage">
+            <img src="ticketpage.png" width = 100% height = "130">
+        </div>
+    </header>
+    
+    <form>
+        <br>
+        <br>
+        <br>
+        <h2>상영관</h2>
+        <input type="text" list="cinema2" placeholder="상영관 선택"><br>
+           <datalist id="cinema2">
+               <option value="잠실">
+               <option value="포천">
+               <option value="용인">
+               <option value="양평">
+           </datalist>
+        <h2>영화</h2>
+        <input type="text" list="movie" placeholder="영화 선택"><br>
+           <datalist id="movie">
+               <option value="헝거게임 : 더 파이널">
+               <option value="코코">
+               <option value="리틀 포레스트">
+               <option value="매드맥드 : 분노의 도로">
+               <option value="위대한 쇼맨">
+           </datalist>
+        <h2>날짜</h2>
+        <pre>
+<input type="date" value="2020.12.02"><br>
+        </pre>
+        <table class="table">
+            <thead>
+                 <tr>
+                   <td></td>
+                   <td>&nbsp&nbsp&nbsp&nbsp1</td>
+                   <td>&nbsp&nbsp&nbsp&nbsp2</td>
+                   <td>&nbsp&nbsp&nbsp&nbsp3</td>
+                   <td>&nbsp&nbsp&nbsp&nbsp4</td>
+                   <td>&nbsp&nbsp&nbsp&nbsp5</td>
+                 </tr>
+            </thead>
+            <tbody>
+                 <tr>
+                   <td>A&nbsp&nbsp</td>
+                   <td><img src="caricon.png" width="50" height="50">&nbsp</td>
+                   <td><img src="caricon.png" width="50" height="50">&nbsp</td>
+                   <td><img src="caricon.png" width="50" height="50">&nbsp</td>
+                   <td><img src="caricon.png" width="50" height="50">&nbsp</td>
+                   <td><img src="caricon.png" width="50" height="50">&nbsp</td>
+        
+                 </tr>
+                 <tr>
+                   <td>B&nbsp&nbsp</td>
+                   <td><img src="caricon.png" width="50" height="50">&nbsp</td>
+                   <td><img src="caricon.png" width="50" height="50">&nbsp</td>
+                   <td><img src="caricon.png" width="50" height="50">&nbsp</td>
+                   <td><img src="caricon.png" width="50" height="50">&nbsp</td>
+                   <td><img src="caricon.png" width="50" height="50">&nbsp</td>
+                   
+                 </tr>
+                 <tr>
+                   <td>C&nbsp&nbsp</td>
+                   <td><img src="caricon.png" width="50" height="50">&nbsp</td>
+                   <td><img src="caricon.png" width="50" height="50">&nbsp</td>
+                   <td><img src="caricon.png" width="50" height="50">&nbsp</td>
+                   <td><img src="caricon.png" width="50" height="50">&nbsp</td>
+                   <td><img src="caricon.png" width="50" height="50">&nbsp</td>
+                   
+                 </tr>
+                 <tr>
+                   <td>D&nbsp&nbsp</td>
+                   <td><img src="caricon.png" width="50" height="50">&nbsp</td>
+                   <td><img src="caricon.png" width="50" height="50">&nbsp</td>
+                   <td><img src="caricon.png" width="50" height="50">&nbsp</td>
+                   <td><img src="caricon.png" width="50" height="50">&nbsp</td>
+                   <td><img src="caricon.png" width="50" height="50">&nbsp</td>
+                   
+                 </tr>
+                 <tr>
+                    <td>E&nbsp&nbsp</td>
+                    <td><img src="caricon.png" width="50" height="50">&nbsp</td>
+                    <td><img src="caricon.png" width="50" height="50">&nbsp</td>
+                    <td><img src="caricon.png" width="50" height="50">&nbsp</td>
+                    <td><img src="caricon.png" width="50" height="50">&nbsp</td>
+                    <td><img src="caricon.png" width="50" height="50">&nbsp</td>
+                    
+                  </tr>
+            </tbody>
+            </table>
+            <h2>좌석</h2>
+        <input type="text" list="seat" placeholder="좌석 선택"><br>
+           <datalist id="seat">
+               <option value="A-1">
+               <option value="A-2">
+               <option value="A-3">
+               <option value="A-4">
+               <option value="A-5">
+               <option value="B-1">
+               <option value="B-2">
+               <option value="B-3">
+               <option value="B-4">
+               <option value="B-5">            
+               <option value="C-1">
+               <option value="C-2">
+               <option value="C-3">
+               <option value="C-4">
+               <option value="C-5">
+               <option value="D-1">
+               <option value="D-2">
+               <option value="D-3">
+               <option value="D-4">
+               <option value="D-5"> 
+               <option value="E-1">
+               <option value="E-2">
+               <option value="E-3">
+               <option value="E-4">
+               <option value="E-5">                      
+           </datalist>
+        <input type="submit" value = "SUBMIT">
+        <input type="button" value = "MAIN" onclick="location.href='file:///C:/Users/User_gram/Desktop/term/main.html' ">
+    </form>
+    <footer>
+        <hr>
+        <p>이용약관 | 개인정보처리방침 | 고객센터 1577 - 0000 | Copyright © 2020 drived-in theater.co.,Ltd. All rights reserved. Contact</p>
+        </footer>
+</body>
+<style>
+    input[type=text]{
+        width:50%;
+        padding: 12px 20px; 
+        margin: 8px 0; 
+        display: inline-block;
+        border: 1px solid #ccc; 
+        border-radius: 4px; 
+        box-sizing: border-box; 
+        
+        
+    }
+    input[type=date]{
+        width:50%;
+        padding: 12px 20px; 
+        margin: 8px 0; 
+        display: inline-block;
+        border: 1px solid #ccc; 
+        border-radius: 4px; 
+        box-sizing: border-box; 
+        
+        
+    }
+    input[type = submit]{
+        width: 25%; 
+        background-color: black; 
+        color: white; 
+        padding: 14px 20px; 
+        margin: 8px 0; 
+        border: none; 
+        border-radius: 4px; 
+        cursor: pointer;
+        font-size:16px;
+    }
+    input[type = button]{
+        width: 25%; 
+        background-color: black; 
+        color: white; 
+        padding: 14px 20px; 
+        margin: 8px 0; 
+        border: none; 
+        border-radius: 4px; 
+        cursor: pointer;
+        font-size:16px;
+    }
+    form{
+        margin-left:500px;
+    }
+    table{
+        margin-left:100px;
+    }
+</style>
+</html>

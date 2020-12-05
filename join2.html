@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+    </head>
+    <body>
+        <div id="joinpage">
+            <img src="joinpage.png" width = 100% height = "110">
+        </div>
+        <div class="wrap">
+            <div class="form-wrap">
+                <div class="button-wrap">
+                    <div id="btn"></div>
+                    <button type="button" class="togglebtn" onclick="login()">LOG IN</button>
+                    <button type="button" class="togglebtn" onclick="join()">JOIN</button>
+                </div>
+                <form id="login" action="" class="input-group">
+                    <input type="text" class="input-field" placeholder="아이디" required>
+                    <input type="password" class="input-field" placeholder="비밀번호" required><br><br><br>
+                    <button class="submit">Login</button><br>
+                    <button class="main" onclick="location.href='file:///C:/Users/User_gram/Desktop/term/main.html' ">메인화면</button>
+                </form>
+                <form id="join" action="" class="input-group">
+                    <input type="text" class="input-field" placeholder="성명" required>
+                    <input type="text" class="input-field" placeholder="전화번호" required>
+                    <input type="id" class="input-field" placeholder="아이디" required>
+                    <input type="password" class="input-field" placeholder="비밀번호" required><br><br>
+                    <button class="submit">JOIN</button><br>
+                    <button class="main" onclick="location.href='file:///C:/Users/User_gram/Desktop/term/main.html' ">메인화면</button>
+                </form>
+            </div>
+        </div>
+        <script>
+            var x = document.getElementById("login");
+            var y = document.getElementById("join");
+            var z = document.getElementById("btn");
+            
+            
+            function login(){
+                x.style.left = "50px";
+                y.style.left = "450px";
+                z.style.left = "0";
+                
+            }
+
+            function join(){
+                x.style.left = "-400px";
+                y.style.left = "50px";
+                z.style.left = "110px";
+            }
+        </script>
+        <footer>
+            <hr>
+            <p>이용약관 | 개인정보처리방침 | 고객센터 1577 - 0000 | Copyright © 2020 drived-in theater.co.,Ltd. All rights reserved. Contact</p>
+            </footer>
+    </body>
+<style>
+    * {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-weight: bold;
+    color:white;
+}
+.wrap {
+    height: 100%;
+    width: 100%;
+    background:white;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+.form-wrap {
+    width: 380px;
+    height: 480px;
+    position: relative;
+    margin: 4% auto;
+    background:rgb(226, 226, 226);
+    padding: 15px;
+    overflow: hidden;
+}
+.button-wrap {
+    width: 230px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: rgb(85, 84, 84);
+    color:white;
+    border-radius: 30px;
+}
+.togglebtn {
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+}
+#btn {
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    background:  rgb(168, 167, 167);
+    color:white;
+    border-radius: 30px;
+    transition: .5s;
+}
+
+.input-group {
+    top: 135px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+}
+.input-field {
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border: none;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+.submit {
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background:rgb(168, 167, 167);
+    color:white;
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+.main{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: rgb(168, 167, 167);
+    color:white;
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+.checkbox {
+    margin: 30px 10px 30px 0;
+}
+span {
+    color: #777;
+    font-size: 12px;
+    bottom: 68px;
+    position: absolute;
+}
+#login {
+    left: 50px;
+}
+#join {
+    left: 450px;
+} 
+.footer{
+        font-size :14px ; 
+        text-align : center; 
+     }
+</style>
+</html> 
